@@ -2,15 +2,21 @@
 body, html {
   padding: 0px;
   margin: 0px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 150%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 2;
+  line-height: 20px;
   color: #777777;
   height: 100%;
   width: 100%;
   background: url("../images/what-the-hex.png");
   /* background-size: cover;  */
   }
+/* make forms inherit font family */
+  input, textarea, select { 
+    font-family:inherit; 
+  }
+
   .topnav { /*inspired from code by w3school*/
     overflow: hidden;
     background-color: #4aaaa5;
@@ -24,9 +30,14 @@ body, html {
     padding: 0 14px;
     text-decoration: none;
     font-size: 17px;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
   }
   
   .topnav a:hover {
+    /* transition hover color */
     background-color: #4aaaa5;
     color: black;
   }
@@ -38,7 +49,7 @@ body, html {
 
   header {
     background: #4aaaa5;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   h1 {
@@ -67,6 +78,7 @@ body, html {
     margin: 10px auto;  
     width: 960px;
     /* float: left ; */
+
   }
 
   .container img{
