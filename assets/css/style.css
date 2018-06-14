@@ -17,6 +17,19 @@ body, html {
     font-family:inherit; 
   }
 
+  .nav-item {
+    float: right;
+    color: #777777;
+    text-align: center;
+    padding: 0 14px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .4s ease-in-out;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    -ms-transition: .4s ease-in-out;
+  }
+
   .topnav { /*inspired from code by w3school*/
     overflow: hidden;
     background-color: #4aaaa5;
@@ -77,7 +90,6 @@ body, html {
     padding: 20px;
     margin: 10px auto;  
     width: 960px;
-    /* float: left ; */
 
   }
 
@@ -105,18 +117,8 @@ body, html {
     margin-bottom: 20px; 
     resize: vertical; 
 }
-  #main-bio,
-  #contact-info,
   #bio-image {
     float: left;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
   }
   
   #bio-image {

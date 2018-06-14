@@ -4,33 +4,66 @@
   <head>
     <meta charset="UTF-8">
     <title>Nice For What</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!-- <link rel="stylesheet" type="text/css" href="C:\Users\Mandoh\desktop\Basic-Portfolio\assets\css\reset.css">` -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
   </head>
 
   <body>
-      <header>
-        <h1>Armando Martinez <div class="topnav">
-            <a href="index.html">About Me</a>
-            <a class="active" href="#portfolio">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </div>
-           
-         </h1>
-      </header>
+    <header>
+      <h1>
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #4aaaa5;">
+            <a class="navbar-brand" href="#">Armando Martinez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About Me |</a>
+                <a class="nav-item nav-link active" href="#portfolio">Portfolio |<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="contact.html">Contact |</a>
+              </div>
+            </div>
+          </nav>
+        <!-- <div class="topnav">
+          <a href="index.html">About Me</a>
+          <a class="active" href="#portfolio">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div> -->
+          
+      </h1>
+    </header>
 
-      <div class="container">
-      <img src="assets/images/hangman.jpg" alt="hangman">
+    <div class="container">
+      <div class="row">
 
-      <img src="assets/images/rpg.jpg" alt="rpg">
+        <div class="col">
+        <img src="assets/images/hangman.jpg" alt="hangman">
+        </div>
 
-      <img src="assets/images/info.jpg" alt="info">
+        <div class="col col2">
+        <img src="assets/images/rpg.jpg" alt="rpg">
+        </div>
+      
+      </div> 
+      <div class="row row2">
 
-      <img src="assets/images/trivia.png" alt="trivia">
+        <div class="col">
+        <img src="assets/images/info.jpg" alt="info">
+        </div>
 
-      <img src="assets/images/rps.png" alt="rps">
-        
+        <div class="col col2">
+        <img src="assets/images/trivia.png" alt="trivia">
+        </div>
       </div>
+
+      <div class="row row3">
+
+        <div class="col">
+        <img src="assets/images/rps.png" alt="rps">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
