@@ -1,3 +1,6 @@
+html{
+  font-family: 'Maven Pro', sans-serif; 
+}
 nav ul a,
 nav .brand-logo {
   color:black;
@@ -10,6 +13,7 @@ p {
 .button-collapse {
   color: #ee6e73;
 }
+
 #cont {
   background-color: #444;
   color: white;
@@ -93,4 +97,11 @@ nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+#SoundCloud{
+  color:rgb(255, 166, 0);
+}
+#Github{
+  color:black;
 }
